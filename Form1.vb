@@ -22,31 +22,25 @@
 
     Private Sub IconButton1_Click(sender As Object, e As EventArgs) Handles IconButton1.Click
         openChildForm(New Clientes)
-        'Clientes.Show() 'Cliente
-        'Me.Visible = False
+
     End Sub
 
     Private Sub IconButton2_Click(sender As Object, e As EventArgs) Handles IconButton2.Click
         openChildForm(New Productos)
-        'Productos.Visible = True 'Productos
-        'Me.Visible = False
+
     End Sub
 
     Private Sub IconButton3_Click(sender As Object, e As EventArgs) Handles IconButton3.Click
         openChildForm(New Proveedores)
-        'Proveedores.Visible = True 'Proveedores
-        'Me.Visible = False
+
     End Sub
 
     Private Sub IconButton4_Click(sender As Object, e As EventArgs) Handles IconButton4.Click
         openChildForm(New Empleados)
-        'Empleados.Visible = True 'Empleados
-        'Me.Visible = False
+
     End Sub
 
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-
-
-
-
+    End Sub
 End Class
