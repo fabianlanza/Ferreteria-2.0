@@ -1,0 +1,35 @@
+C:\Users\aguil\OneDrive\Proyectos personales\Ferreteria\bin\Debug\Ferreteria.exe.config
+C:\Users\aguil\OneDrive\Proyectos personales\Ferreteria\bin\Debug\Ferreteria.exe
+C:\Users\aguil\OneDrive\Proyectos personales\Ferreteria\bin\Debug\Ferreteria.pdb
+C:\Users\aguil\OneDrive\Proyectos personales\Ferreteria\bin\Debug\Ferreteria.xml
+C:\Users\aguil\OneDrive\Proyectos personales\Ferreteria\obj\Debug\Ferreteria.vbproj.AssemblyReference.cache
+C:\Users\aguil\OneDrive\Proyectos personales\Ferreteria\obj\Debug\Ferreteria.vbproj.SuggestedBindingRedirects.cache
+C:\Users\aguil\OneDrive\Proyectos personales\Ferreteria\obj\Debug\Ferreteria.Form1.resources
+C:\Users\aguil\OneDrive\Proyectos personales\Ferreteria\obj\Debug\Ferreteria.Resources.resources
+C:\Users\aguil\OneDrive\Proyectos personales\Ferreteria\obj\Debug\Ferreteria.vbproj.GenerateResource.cache
+C:\Users\aguil\OneDrive\Proyectos personales\Ferreteria\obj\Debug\Ferreteria.vbproj.CoreCompileInputs.cache
+C:\Users\aguil\OneDrive\Proyectos personales\Ferreteria\obj\Debug\Ferreteria.exe
+C:\Users\aguil\OneDrive\Proyectos personales\Ferreteria\obj\Debug\Ferreteria.xml
+C:\Users\aguil\OneDrive\Proyectos personales\Ferreteria\obj\Debug\Ferreteria.pdb
+C:\Users\aguil\OneDrive\Proyectos personales\Ferreteria\obj\Debug\Ferreteria.Clientes.resources
+C:\Users\aguil\OneDrive\Proyectos personales\Ferreteria\obj\Debug\Ferreteria.Empleados.resources
+C:\Users\aguil\OneDrive\Proyectos personales\Ferreteria\obj\Debug\Ferreteria.Proveedores.resources
+C:\Users\aguil\OneDrive\Proyectos personales\Ferreteria\obj\Debug\Ferreteria.Productos.resources
+E:\.net\Ferreteria-main\bin\Debug\Ferreteria.exe.config
+E:\.net\Ferreteria-main\bin\Debug\Ferreteria.exe
+E:\.net\Ferreteria-main\bin\Debug\Ferreteria.pdb
+E:\.net\Ferreteria-main\bin\Debug\Ferreteria.xml
+E:\.net\Ferreteria-main\obj\Debug\Ferreteria.vbproj.AssemblyReference.cache
+E:\.net\Ferreteria-main\obj\Debug\Ferreteria.Form1.resources
+E:\.net\Ferreteria-main\obj\Debug\Ferreteria.Clientes.resources
+E:\.net\Ferreteria-main\obj\Debug\Ferreteria.Empleados.resources
+E:\.net\Ferreteria-main\obj\Debug\Ferreteria.Proveedores.resources
+E:\.net\Ferreteria-main\obj\Debug\Ferreteria.Productos.resources
+E:\.net\Ferreteria-main\obj\Debug\Ferreteria.Resources.resources
+E:\.net\Ferreteria-main\obj\Debug\Ferreteria.vbproj.GenerateResource.cache
+E:\.net\Ferreteria-main\obj\Debug\Ferreteria.vbproj.CoreCompileInputs.cache
+E:\.net\Ferreteria-main\obj\Debug\Ferreteria.exe
+E:\.net\Ferreteria-main\obj\Debug\Ferreteria.xml
+E:\.net\Ferreteria-main\obj\Debug\Ferreteria.pdb
+E:\.net\Ferreteria-main\bin\Debug\FontAwesome.Sharp.dll
+E:\.net\Ferreteria-main\obj\Debug\Ferreteria.vbproj.CopyComplete
