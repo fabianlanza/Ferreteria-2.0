@@ -82,6 +82,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classconexion.vb" />
+    <Compile Include="Factura.Designer.vb">
+      <DependentUpon>Factura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Factura.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,7 @@
     <Compile Include="Empleados.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Mdvaribale.vb" />
     <Compile Include="Proveedores.Designer.vb">
       <DependentUpon>Proveedores.vb</DependentUpon>
     </Compile>
@@ -130,6 +137,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Factura.resx">
+      <DependentUpon>Factura.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>

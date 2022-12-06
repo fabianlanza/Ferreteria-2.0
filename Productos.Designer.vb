@@ -42,19 +42,19 @@ Partial Class Productos
         'cmbproveedor
         '
         Me.cmbproveedor.FormattingEnabled = True
-        Me.cmbproveedor.Location = New System.Drawing.Point(297, 275)
-        Me.cmbproveedor.Margin = New System.Windows.Forms.Padding(2)
+        Me.cmbproveedor.Location = New System.Drawing.Point(396, 338)
+        Me.cmbproveedor.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cmbproveedor.Name = "cmbproveedor"
-        Me.cmbproveedor.Size = New System.Drawing.Size(127, 21)
+        Me.cmbproveedor.Size = New System.Drawing.Size(168, 24)
         Me.cmbproveedor.TabIndex = 15
         '
         'Btnguardar
         '
         Me.Btnguardar.ForeColor = System.Drawing.Color.Black
-        Me.Btnguardar.Location = New System.Drawing.Point(92, 415)
-        Me.Btnguardar.Margin = New System.Windows.Forms.Padding(2)
+        Me.Btnguardar.Location = New System.Drawing.Point(123, 511)
+        Me.Btnguardar.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Btnguardar.Name = "Btnguardar"
-        Me.Btnguardar.Size = New System.Drawing.Size(97, 42)
+        Me.Btnguardar.Size = New System.Drawing.Size(129, 52)
         Me.Btnguardar.TabIndex = 14
         Me.Btnguardar.Text = "Guardar"
         Me.Btnguardar.UseVisualStyleBackColor = True
@@ -63,22 +63,21 @@ Partial Class Productos
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.GridColor = System.Drawing.SystemColors.AppWorkspace
-        Me.DataGridView1.Location = New System.Drawing.Point(33, 31)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2)
+        Me.DataGridView1.Location = New System.Drawing.Point(44, 38)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(674, 209)
+        Me.DataGridView1.Size = New System.Drawing.Size(899, 257)
         Me.DataGridView1.TabIndex = 10
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.ForeColor = System.Drawing.Color.Gainsboro
-        Me.Label3.Location = New System.Drawing.Point(237, 278)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label3.Location = New System.Drawing.Point(316, 342)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(56, 13)
+        Me.Label3.Size = New System.Drawing.Size(71, 16)
         Me.Label3.TabIndex = 13
         Me.Label3.Text = "Proveedor"
         '
@@ -86,104 +85,99 @@ Partial Class Productos
         '
         Me.Label1.AutoSize = True
         Me.Label1.ForeColor = System.Drawing.Color.Gainsboro
-        Me.Label1.Location = New System.Drawing.Point(49, 278)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Location = New System.Drawing.Point(65, 342)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(18, 13)
+        Me.Label1.Size = New System.Drawing.Size(20, 16)
         Me.Label1.TabIndex = 8
         Me.Label1.Text = "ID"
         '
         'txtnombre
         '
-        Me.txtnombre.Location = New System.Drawing.Point(92, 312)
-        Me.txtnombre.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtnombre.Location = New System.Drawing.Point(123, 384)
+        Me.txtnombre.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtnombre.Name = "txtnombre"
-        Me.txtnombre.Size = New System.Drawing.Size(127, 20)
+        Me.txtnombre.Size = New System.Drawing.Size(168, 22)
         Me.txtnombre.TabIndex = 12
         '
         'txtid
         '
-        Me.txtid.Location = New System.Drawing.Point(92, 276)
-        Me.txtid.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtid.Location = New System.Drawing.Point(123, 340)
+        Me.txtid.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtid.Name = "txtid"
-        Me.txtid.Size = New System.Drawing.Size(127, 20)
+        Me.txtid.Size = New System.Drawing.Size(168, 22)
         Me.txtid.TabIndex = 9
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.ForeColor = System.Drawing.Color.Gainsboro
-        Me.Label2.Location = New System.Drawing.Point(49, 315)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label2.Location = New System.Drawing.Point(65, 388)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(44, 13)
+        Me.Label2.Size = New System.Drawing.Size(56, 16)
         Me.Label2.TabIndex = 11
         Me.Label2.Text = "Nombre"
         '
         'cmbcategoria
         '
         Me.cmbcategoria.FormattingEnabled = True
-        Me.cmbcategoria.Location = New System.Drawing.Point(297, 311)
-        Me.cmbcategoria.Margin = New System.Windows.Forms.Padding(2)
+        Me.cmbcategoria.Location = New System.Drawing.Point(396, 383)
+        Me.cmbcategoria.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cmbcategoria.Name = "cmbcategoria"
-        Me.cmbcategoria.Size = New System.Drawing.Size(127, 21)
+        Me.cmbcategoria.Size = New System.Drawing.Size(168, 24)
         Me.cmbcategoria.TabIndex = 17
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.ForeColor = System.Drawing.Color.Gainsboro
-        Me.Label4.Location = New System.Drawing.Point(237, 314)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label4.Location = New System.Drawing.Point(316, 386)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(52, 13)
+        Me.Label4.Size = New System.Drawing.Size(66, 16)
         Me.Label4.TabIndex = 16
         Me.Label4.Text = "Categoria"
         '
         'txtprecio
         '
-        Me.txtprecio.Location = New System.Drawing.Point(92, 347)
-        Me.txtprecio.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtprecio.Location = New System.Drawing.Point(123, 427)
+        Me.txtprecio.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtprecio.Name = "txtprecio"
-        Me.txtprecio.Size = New System.Drawing.Size(127, 20)
+        Me.txtprecio.Size = New System.Drawing.Size(168, 22)
         Me.txtprecio.TabIndex = 19
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.ForeColor = System.Drawing.Color.Gainsboro
-        Me.Label5.Location = New System.Drawing.Point(49, 350)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label5.Location = New System.Drawing.Point(65, 431)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(37, 13)
+        Me.Label5.Size = New System.Drawing.Size(46, 16)
         Me.Label5.TabIndex = 18
         Me.Label5.Text = "Precio"
         '
         'txtexistencia
         '
-        Me.txtexistencia.Location = New System.Drawing.Point(297, 347)
-        Me.txtexistencia.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtexistencia.Location = New System.Drawing.Point(396, 427)
+        Me.txtexistencia.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtexistencia.Name = "txtexistencia"
-        Me.txtexistencia.Size = New System.Drawing.Size(127, 20)
+        Me.txtexistencia.Size = New System.Drawing.Size(168, 22)
         Me.txtexistencia.TabIndex = 21
         '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.ForeColor = System.Drawing.Color.Gainsboro
-        Me.Label6.Location = New System.Drawing.Point(237, 350)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label6.Location = New System.Drawing.Point(316, 431)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(55, 13)
+        Me.Label6.Size = New System.Drawing.Size(68, 16)
         Me.Label6.TabIndex = 20
         Me.Label6.Text = "Existencia"
         '
         'Productos
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(74, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(743, 576)
+        Me.ClientSize = New System.Drawing.Size(991, 709)
         Me.Controls.Add(Me.txtexistencia)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.txtprecio)
@@ -198,7 +192,7 @@ Partial Class Productos
         Me.Controls.Add(Me.txtnombre)
         Me.Controls.Add(Me.txtid)
         Me.Controls.Add(Me.Label2)
-        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Productos"
         Me.Text = "Productos"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()

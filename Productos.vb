@@ -99,4 +99,19 @@ Public Class Productos
         da = Nothing
     End Sub
 
+    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
+
+    End Sub
+
+    Private Sub DataGridView1_CellDoubleClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellDoubleClick
+        If valprodcuto = 1 Then 'validacion para actualizar
+            txtid.Text = DataGridView1.CurrentRow.Cells(0).Value
+        ElseIf valprodcuto = 2 Then 'validacion para cargar producto en factura
+            Factura.TextBox1.Text = DataGridView1.CurrentRow.Cells(0).Value
+
+
+
+            Me.Close()
+        End If
+    End Sub
 End Class
