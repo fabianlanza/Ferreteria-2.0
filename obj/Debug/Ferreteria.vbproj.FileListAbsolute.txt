@@ -52,3 +52,4 @@ C:\Users\aguil\OneDrive\gitHub\Ferreteria-2.0\obj\Debug\Ferreteria.vbproj.CopyCo
 C:\Users\aguil\OneDrive\gitHub\Ferreteria-2.0\obj\Debug\Ferreteria.exe
 C:\Users\aguil\OneDrive\gitHub\Ferreteria-2.0\obj\Debug\Ferreteria.xml
 C:\Users\aguil\OneDrive\gitHub\Ferreteria-2.0\obj\Debug\Ferreteria.pdb
+C:\Users\aguil\OneDrive\gitHub\Ferreteria-2.0\obj\Debug\Ferreteria.Factura.resources

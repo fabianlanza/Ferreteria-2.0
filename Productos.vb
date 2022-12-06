@@ -111,7 +111,7 @@ Public Class Productos
             Factura.txtnomprod.Text = DataGridView1.CurrentRow.Cells(1).Value
             Factura.txtexistencia.Text = DataGridView1.CurrentRow.Cells(5).Value
             Factura.txtprecio.Text = DataGridView1.CurrentRow.Cells(2).Value
-            Factura.Show()
+            'Factura.Show()
 
             Me.Close()
         End If
