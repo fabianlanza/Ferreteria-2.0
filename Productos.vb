@@ -107,9 +107,11 @@ Public Class Productos
         If valprodcuto = 1 Then 'validacion para actualizar
             txtid.Text = DataGridView1.CurrentRow.Cells(0).Value
         ElseIf valprodcuto = 2 Then 'validacion para cargar producto en factura
-            Factura.TextBox1.Text = DataGridView1.CurrentRow.Cells(0).Value
-
-
+            Factura.txtidprod.Text = DataGridView1.CurrentRow.Cells(0).Value
+            Factura.txtnomprod.Text = DataGridView1.CurrentRow.Cells(1).Value
+            Factura.txtexistencia.Text = DataGridView1.CurrentRow.Cells(5).Value
+            Factura.txtprecio.Text = DataGridView1.CurrentRow.Cells(2).Value
+            Factura.Show()
 
             Me.Close()
         End If
