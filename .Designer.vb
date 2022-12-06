@@ -53,188 +53,214 @@ Partial Class Factura
         Me.Linea = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.txtfactura = New System.Windows.Forms.TextBox()
         Me.txtfecha = New System.Windows.Forms.TextBox()
+        Me.txtIdCliente = New System.Windows.Forms.TextBox()
+        Me.txtIdEmpleado = New System.Windows.Forms.TextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'label1
         '
         Me.label1.AutoSize = True
-        Me.label1.Location = New System.Drawing.Point(33, 72)
+        Me.label1.Location = New System.Drawing.Point(25, 58)
+        Me.label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.label1.Name = "label1"
-        Me.label1.Size = New System.Drawing.Size(61, 16)
+        Me.label1.Size = New System.Drawing.Size(50, 13)
         Me.label1.TabIndex = 1
         Me.label1.Text = "Producto"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(33, 108)
+        Me.Label2.Location = New System.Drawing.Point(25, 88)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(46, 16)
+        Me.Label2.Size = New System.Drawing.Size(37, 13)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Precio"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(414, 108)
+        Me.Label3.Location = New System.Drawing.Point(310, 88)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(61, 16)
+        Me.Label3.Size = New System.Drawing.Size(49, 13)
         Me.Label3.TabIndex = 3
         Me.Label3.Text = "Cantidad"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(246, 108)
+        Me.Label4.Location = New System.Drawing.Point(184, 88)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(68, 16)
+        Me.Label4.Size = New System.Drawing.Size(55, 13)
         Me.Label4.TabIndex = 4
         Me.Label4.Text = "Existencia"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(530, 376)
+        Me.Label5.Location = New System.Drawing.Point(398, 306)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(56, 16)
+        Me.Label5.Size = New System.Drawing.Size(46, 13)
         Me.Label5.TabIndex = 5
         Me.Label5.Text = "Subtotal"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(615, 9)
+        Me.Label6.Location = New System.Drawing.Point(461, 7)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(45, 16)
+        Me.Label6.Size = New System.Drawing.Size(37, 13)
         Me.Label6.TabIndex = 6
         Me.Label6.Text = "Fecha"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(33, 9)
+        Me.Label7.Location = New System.Drawing.Point(25, 7)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(76, 16)
+        Me.Label7.Size = New System.Drawing.Size(63, 13)
         Me.Label7.TabIndex = 7
         Me.Label7.Text = "No. Factura"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(545, 461)
+        Me.Label8.Location = New System.Drawing.Point(409, 375)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(38, 16)
+        Me.Label8.Size = New System.Drawing.Size(31, 13)
         Me.Label8.TabIndex = 8
         Me.Label8.Text = "Total"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(545, 417)
+        Me.Label9.Location = New System.Drawing.Point(409, 339)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(28, 16)
+        Me.Label9.Size = New System.Drawing.Size(24, 13)
         Me.Label9.TabIndex = 9
         Me.Label9.Text = "ISV"
         '
         'btnadic
         '
-        Me.btnadic.Location = New System.Drawing.Point(723, 171)
+        Me.btnadic.Location = New System.Drawing.Point(542, 139)
+        Me.btnadic.Margin = New System.Windows.Forms.Padding(2)
         Me.btnadic.Name = "btnadic"
-        Me.btnadic.Size = New System.Drawing.Size(106, 30)
+        Me.btnadic.Size = New System.Drawing.Size(80, 24)
         Me.btnadic.TabIndex = 10
         Me.btnadic.Text = "Adicionar"
         Me.btnadic.UseVisualStyleBackColor = True
         '
         'btnquit
         '
-        Me.btnquit.Location = New System.Drawing.Point(723, 220)
+        Me.btnquit.Location = New System.Drawing.Point(542, 179)
+        Me.btnquit.Margin = New System.Windows.Forms.Padding(2)
         Me.btnquit.Name = "btnquit"
-        Me.btnquit.Size = New System.Drawing.Size(106, 30)
+        Me.btnquit.Size = New System.Drawing.Size(80, 24)
         Me.btnquit.TabIndex = 11
         Me.btnquit.Text = "Quitar"
         Me.btnquit.UseVisualStyleBackColor = True
         '
         'btnvaci
         '
-        Me.btnvaci.Location = New System.Drawing.Point(723, 272)
+        Me.btnvaci.Location = New System.Drawing.Point(542, 221)
+        Me.btnvaci.Margin = New System.Windows.Forms.Padding(2)
         Me.btnvaci.Name = "btnvaci"
-        Me.btnvaci.Size = New System.Drawing.Size(106, 30)
+        Me.btnvaci.Size = New System.Drawing.Size(80, 24)
         Me.btnvaci.TabIndex = 12
         Me.btnvaci.Text = "Vaciar"
         Me.btnvaci.UseVisualStyleBackColor = True
         '
         'btnguardar
         '
-        Me.btnguardar.Location = New System.Drawing.Point(36, 385)
+        Me.btnguardar.Location = New System.Drawing.Point(27, 313)
+        Me.btnguardar.Margin = New System.Windows.Forms.Padding(2)
         Me.btnguardar.Name = "btnguardar"
-        Me.btnguardar.Size = New System.Drawing.Size(106, 30)
+        Me.btnguardar.Size = New System.Drawing.Size(80, 24)
         Me.btnguardar.TabIndex = 13
         Me.btnguardar.Text = "Guardar"
         Me.btnguardar.UseVisualStyleBackColor = True
         '
         'txtidprod
         '
-        Me.txtidprod.Location = New System.Drawing.Point(100, 69)
+        Me.txtidprod.Location = New System.Drawing.Point(75, 56)
+        Me.txtidprod.Margin = New System.Windows.Forms.Padding(2)
         Me.txtidprod.Name = "txtidprod"
-        Me.txtidprod.Size = New System.Drawing.Size(73, 22)
+        Me.txtidprod.Size = New System.Drawing.Size(56, 20)
         Me.txtidprod.TabIndex = 14
         '
         'txtcantidad
         '
-        Me.txtcantidad.Location = New System.Drawing.Point(495, 105)
+        Me.txtcantidad.Location = New System.Drawing.Point(371, 85)
+        Me.txtcantidad.Margin = New System.Windows.Forms.Padding(2)
         Me.txtcantidad.Name = "txtcantidad"
-        Me.txtcantidad.Size = New System.Drawing.Size(88, 22)
+        Me.txtcantidad.Size = New System.Drawing.Size(67, 20)
         Me.txtcantidad.TabIndex = 15
         '
         'txtexistencia
         '
-        Me.txtexistencia.Location = New System.Drawing.Point(320, 105)
+        Me.txtexistencia.Location = New System.Drawing.Point(240, 85)
+        Me.txtexistencia.Margin = New System.Windows.Forms.Padding(2)
         Me.txtexistencia.Name = "txtexistencia"
-        Me.txtexistencia.Size = New System.Drawing.Size(76, 22)
+        Me.txtexistencia.Size = New System.Drawing.Size(58, 20)
         Me.txtexistencia.TabIndex = 16
         '
         'txtnomprod
         '
-        Me.txtnomprod.Location = New System.Drawing.Point(179, 69)
+        Me.txtnomprod.Location = New System.Drawing.Point(134, 56)
+        Me.txtnomprod.Margin = New System.Windows.Forms.Padding(2)
         Me.txtnomprod.Name = "txtnomprod"
-        Me.txtnomprod.Size = New System.Drawing.Size(390, 22)
+        Me.txtnomprod.Size = New System.Drawing.Size(294, 20)
         Me.txtnomprod.TabIndex = 17
         '
         'txtprecio
         '
-        Me.txtprecio.Location = New System.Drawing.Point(100, 108)
+        Me.txtprecio.Location = New System.Drawing.Point(75, 88)
+        Me.txtprecio.Margin = New System.Windows.Forms.Padding(2)
         Me.txtprecio.Name = "txtprecio"
-        Me.txtprecio.Size = New System.Drawing.Size(127, 22)
+        Me.txtprecio.Size = New System.Drawing.Size(96, 20)
         Me.txtprecio.TabIndex = 18
         '
         'txttotal
         '
-        Me.txttotal.Location = New System.Drawing.Point(592, 458)
+        Me.txttotal.Location = New System.Drawing.Point(444, 372)
+        Me.txttotal.Margin = New System.Windows.Forms.Padding(2)
         Me.txttotal.Name = "txttotal"
-        Me.txttotal.Size = New System.Drawing.Size(103, 22)
+        Me.txttotal.Size = New System.Drawing.Size(78, 20)
         Me.txttotal.TabIndex = 19
         '
         'txtisv
         '
-        Me.txtisv.Location = New System.Drawing.Point(592, 414)
+        Me.txtisv.Location = New System.Drawing.Point(444, 336)
+        Me.txtisv.Margin = New System.Windows.Forms.Padding(2)
         Me.txtisv.Name = "txtisv"
-        Me.txtisv.Size = New System.Drawing.Size(103, 22)
+        Me.txtisv.Size = New System.Drawing.Size(78, 20)
         Me.txtisv.TabIndex = 20
         '
         'txtsub
         '
-        Me.txtsub.Location = New System.Drawing.Point(592, 370)
+        Me.txtsub.Location = New System.Drawing.Point(444, 301)
+        Me.txtsub.Margin = New System.Windows.Forms.Padding(2)
         Me.txtsub.Name = "txtsub"
-        Me.txtsub.Size = New System.Drawing.Size(103, 22)
+        Me.txtsub.Size = New System.Drawing.Size(78, 20)
         Me.txtsub.TabIndex = 21
         '
         'button1
         '
         Me.button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.button1.Location = New System.Drawing.Point(592, 69)
+        Me.button1.Location = New System.Drawing.Point(444, 56)
+        Me.button1.Margin = New System.Windows.Forms.Padding(2)
         Me.button1.Name = "button1"
-        Me.button1.Size = New System.Drawing.Size(106, 30)
+        Me.button1.Size = New System.Drawing.Size(80, 24)
         Me.button1.TabIndex = 22
         Me.button1.Text = "..."
         Me.button1.UseVisualStyleBackColor = True
@@ -243,11 +269,10 @@ Partial Class Factura
         '
         Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView2.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Cod, Me.Nombre, Me.Existencia, Me.Cantidad, Me.Precio, Me.Linea})
-        Me.DataGridView2.Location = New System.Drawing.Point(25, 151)
-        Me.DataGridView2.Margin = New System.Windows.Forms.Padding(4)
+        Me.DataGridView2.Location = New System.Drawing.Point(19, 123)
         Me.DataGridView2.Name = "DataGridView2"
         Me.DataGridView2.RowHeadersWidth = 51
-        Me.DataGridView2.Size = New System.Drawing.Size(673, 199)
+        Me.DataGridView2.Size = New System.Drawing.Size(505, 162)
         Me.DataGridView2.TabIndex = 23
         '
         'Cod
@@ -295,23 +320,61 @@ Partial Class Factura
         '
         'txtfactura
         '
-        Me.txtfactura.Location = New System.Drawing.Point(115, 6)
+        Me.txtfactura.Location = New System.Drawing.Point(86, 5)
+        Me.txtfactura.Margin = New System.Windows.Forms.Padding(2)
         Me.txtfactura.Name = "txtfactura"
-        Me.txtfactura.Size = New System.Drawing.Size(127, 22)
+        Me.txtfactura.Size = New System.Drawing.Size(96, 20)
         Me.txtfactura.TabIndex = 25
         '
         'txtfecha
         '
-        Me.txtfecha.Location = New System.Drawing.Point(666, 9)
+        Me.txtfecha.Location = New System.Drawing.Point(500, 7)
+        Me.txtfecha.Margin = New System.Windows.Forms.Padding(2)
         Me.txtfecha.Name = "txtfecha"
-        Me.txtfecha.Size = New System.Drawing.Size(127, 22)
+        Me.txtfecha.Size = New System.Drawing.Size(96, 20)
         Me.txtfecha.TabIndex = 26
+        '
+        'txtIdCliente
+        '
+        Me.txtIdCliente.Location = New System.Drawing.Point(226, 356)
+        Me.txtIdCliente.Name = "txtIdCliente"
+        Me.txtIdCliente.Size = New System.Drawing.Size(100, 20)
+        Me.txtIdCliente.TabIndex = 30
+        '
+        'txtIdEmpleado
+        '
+        Me.txtIdEmpleado.Location = New System.Drawing.Point(226, 306)
+        Me.txtIdEmpleado.Name = "txtIdEmpleado"
+        Me.txtIdEmpleado.Size = New System.Drawing.Size(100, 20)
+        Me.txtIdEmpleado.TabIndex = 29
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(152, 308)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(68, 13)
+        Me.Label10.TabIndex = 31
+        Me.Label10.Text = "ID Empleado"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(152, 356)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(53, 13)
+        Me.Label11.TabIndex = 32
+        Me.Label11.Text = "ID Cliente"
         '
         'Factura
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(844, 640)
+        Me.ClientSize = New System.Drawing.Size(633, 520)
+        Me.Controls.Add(Me.Label11)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.txtIdCliente)
+        Me.Controls.Add(Me.txtIdEmpleado)
         Me.Controls.Add(Me.txtfecha)
         Me.Controls.Add(Me.txtfactura)
         Me.Controls.Add(Me.DataGridView2)
@@ -337,8 +400,9 @@ Partial Class Factura
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.label1)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Factura"
-        Me.Text = "d"
+        Me.Text = "Ordenes"
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -375,4 +439,8 @@ Partial Class Factura
     Friend WithEvents Linea As DataGridViewTextBoxColumn
     Friend WithEvents txtfactura As TextBox
     Friend WithEvents txtfecha As TextBox
+    Friend WithEvents txtIdCliente As TextBox
+    Friend WithEvents txtIdEmpleado As TextBox
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label11 As Label
 End Class

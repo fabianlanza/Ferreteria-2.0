@@ -3,10 +3,10 @@
     Private currentChildForm As Form
 
 
-    Private Sub openChildForm(childForm As Form)
-        If currentChildForm IsNot Nothing Then  'abrir solo un child form
-            currentChildForm.Close()
-        End If
+    Public Sub openChildForm(childForm As Form)
+        'If currentChildForm IsNot Nothing Then  'abrir solo un child form
+        'currentChildForm.Close()
+        'End If
         currentChildForm = childForm
 
         childForm.TopLevel = False

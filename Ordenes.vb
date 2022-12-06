@@ -13,7 +13,8 @@ Public Class Factura
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles button1.Click
         valprodcuto = 2
-        Productos.Show()
+        Form1.openChildForm(Productos)
+        'Productos.Show()
     End Sub
 
 
@@ -51,13 +52,13 @@ Public Class Factura
         Me.txtsub.Text = Format(Xtotal, "#,##0.00")
         Me.txtisv.Text = Format(txtsub.Text * 0.15, "###0.00")
         Me.txttotal.Text = Format((Val(txtsub.Text) + Val(txtisv.Text)), "#,##0.00")
-        '22:
+22:
     End Sub
 
 
     Private Sub Factura_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         autonum()
-        txtfactura.Text = Today()
+        txtfecha.Text = Today()
         txtidprod.Enabled = False
         txtnomprod.Enabled = False
         txtprecio.Enabled = False
@@ -77,5 +78,38 @@ Public Class Factura
             MsgBox("no hay valores", MsgBoxStyle.Exclamation)
         End If
 
+    End Sub
+
+    Private Sub btnadic_Click(sender As Object, e As EventArgs) Handles btnadic.Click
+        If Val(txtcantidad.Text) > Val(txtexistencia.Text) Then
+            MsgBox(" Cantida no valida", MsgBoxStyle.Critical)
+        Else
+            Dim line As Double = Val(txtcantidad.Text) * Val(txtprecio.Text)
+            DataGridView2.Rows.Add(txtidprod.Text, txtnomprod.Text, txtexistencia.Text, txtcantidad.Text, txtprecio.Text, line)
+            limpiar()
+            TotalValores()
+        End If
+    End Sub
+
+    Private Sub btnguardar_Click(sender As Object, e As EventArgs) Handles btnguardar.Click
+        Dim prete As String = txttotal.Text
+        Dim newstring2 As String = prete.Replace(",", ".")
+        query = "Insert into Ordenes values(" & txtfactura.Text & ", '" & txtfecha.Text & "', " & txtIdCliente.Text & ", " & txtIdEmpleado.Text & ")"
+        conexion.insertar(query)
+        Dim lleno As Integer = Me.DataGridView2.Rows.Count
+        Dim detalle As Integer
+
+
+        For detalle = 0 To lleno - 1
+            query = "insert into DetalleFactura values(" & txtfactura.Text & "," & (DataGridView2(0, detalle).Value) & "," & (DataGridView2(2, detalle).Value) & ")"
+            conexion.insertar(query)
+            Dim nueexist = (DataGridView2(2, detalle).Value) - (DataGridView2(3, detalle).Value)
+            query = "Update Producto Set existencia =" & nueexist & " where id_producto = " & (DataGridView2(0, detalle).Value)
+            conexion.insertar(query)
+        Next
+
+        limpiar()
+        autonum()
+        DataGridView2.Rows.Clear()
     End Sub
 End Class

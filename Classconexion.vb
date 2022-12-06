@@ -3,7 +3,7 @@ Imports System.Security.Cryptography.X509Certificates
 
 Public Class Classconexion
     'Public servidor As String = "Data source = 'Nombre del servidor'; Initial catalog= 'Base de datos'; Integrated security = true"
-    Public servidor As String = "Data source = MSI\SQLEXPRESS; Initial catalog=Ferreteria;Integrated security =true"
+    Public servidor As String = "Data source = DESKTOP-AND27IO\SQL; Initial catalog=Ferreteria;Integrated security =true"
     Public conexiion As New SqlConnection(servidor)
 
     Public Sub conectar()
@@ -78,4 +78,22 @@ Public Class Classconexion
             desconectar()
         End Try
     End Function
+
+
+    Public Sub insertar(ByVal query As String)
+        Dim comando As New SqlCommand(query, conexiion)
+        Try
+            conectar()
+            comando.ExecuteNonQuery()
+
+        Catch ex As Exception
+            ex.Message.ToString()
+        Finally
+            desconectar()
+
+        End Try
+    End Sub
+
+
+
 End Class

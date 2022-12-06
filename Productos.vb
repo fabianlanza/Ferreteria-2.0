@@ -104,16 +104,17 @@ Public Class Productos
     End Sub
 
     Private Sub DataGridView1_CellDoubleClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellDoubleClick
-        If valprodcuto = 1 Then 'validacion para actualizar
-            txtid.Text = DataGridView1.CurrentRow.Cells(0).Value
-        ElseIf valprodcuto = 2 Then 'validacion para cargar producto en factura
-            Factura.txtidprod.Text = DataGridView1.CurrentRow.Cells(0).Value
-            Factura.txtnomprod.Text = DataGridView1.CurrentRow.Cells(1).Value
-            Factura.txtexistencia.Text = DataGridView1.CurrentRow.Cells(5).Value
-            Factura.txtprecio.Text = DataGridView1.CurrentRow.Cells(2).Value
-            'Factura.Show()
+        'If valprodcuto = 1 Then 'validacion para actualizar
+        'txtid.Text = DataGridView1.CurrentRow.Cells(0).Value
+        'ElseIf valprodcuto = 2 Then 'validacion para cargar producto en factura
 
-            Me.Close()
-        End If
+        Factura.txtidprod.Text = DataGridView1.CurrentRow.Cells(0).Value
+        Factura.txtnomprod.Text = DataGridView1.CurrentRow.Cells(1).Value
+        Factura.txtexistencia.Text = DataGridView1.CurrentRow.Cells(5).Value
+        Factura.txtprecio.Text = DataGridView1.CurrentRow.Cells(2).Value
+        Form1.openChildForm(Factura)
+        'Factura.Show()
+        Me.Close()
+        'End If
     End Sub
 End Class
