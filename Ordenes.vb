@@ -101,7 +101,7 @@ Public Class Factura
 
 
         For detalle = 0 To lleno - 1
-            query = "insert into DetalleFactura values(" & txtfactura.Text & "," & (DataGridView2(0, detalle).Value) & "," & (DataGridView2(2, detalle).Value) & ")"
+            query = "insert into detalle_ordenes values(" & txtfactura.Text & "," & (DataGridView2(0, detalle).Value) & "," & (DataGridView2(2, detalle).Value) & ")"
             conexion.insertar(query)
             Dim nueexist = (DataGridView2(2, detalle).Value) - (DataGridView2(3, detalle).Value)
             query = "Update Producto Set existencia =" & nueexist & " where id_producto = " & (DataGridView2(0, detalle).Value)
